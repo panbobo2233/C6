@@ -62,7 +62,7 @@ public class CustomCountDownTimer implements Runnable{
         //倒计时回调
         void onTicker(int time);
 
-        //完成时回调
+        //c完成时回调
         void onFinish();
     }
 
