@@ -15,7 +15,7 @@ public class CustomCountDownTimer implements Runnable{
     private final Handler handler;
     //1、实时回调这个时候是什么时间，倒计时是几秒 观察者设计模式
     //2、支持动态传入总时间
-    //3、每过一秒 总 秒数减一
+    //3、每过一秒 总  秒数减一
     //4、总时间倒计时为0时，要回调完成的状态
 
     //小技巧：抽取成员变量： ctrl+alt+f
